@@ -3,11 +3,6 @@ import linux
 import hadoop
 import aws
 
-def aws():
-	pass
-def hadoop():
-	pass
-
 system("clear;tput setaf 1; tput cup 3 15;tput bold;tput rev");
 print("Python Automation")
 system("tput sgr0;tput bold;tput cup 5 17 ; ");
