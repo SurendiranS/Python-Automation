@@ -23,5 +23,9 @@ elif choice == 2:
 	hadoop.main()
 elif choice == 3:
 	aws.main()
+elif choice == 4:
+	docker.main()
+elif choice == 5:
+	MachineLearning.main()
 
 
