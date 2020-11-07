@@ -1,15 +1,20 @@
 import os
 
-while True:
+def banner():
     os.system("clear")
-    if int(cmd) == 2:
+    if int(choice) == 2:
         print("""
         \n
             Press 1 : To Configure NameNode 
             Press 2 : To Configure Datanode
             Press 3 : To Configure Client      
         
-        """)
+        """)    
+
+def main():
+    while True:
+        banner()
+        
         h = int(input("Want to Configure:   "))
         if h == 1:
             print("Configuring NameNode")
@@ -95,4 +100,5 @@ while True:
 
         else:
             exit()
+
 
