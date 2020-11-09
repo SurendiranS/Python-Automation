@@ -4,6 +4,7 @@ import hadoop
 import aws
 import docker
 import machineLearning
+import ansible
 
 while 1:
 	# Banner 
@@ -40,3 +41,5 @@ while 1:
 		docker.main()
 	elif choice == 5:
 		machineLearning.main()
+	elif choice == 6:
+		ansible.main()
