@@ -37,7 +37,7 @@ def main():
 	7.  Get Date
 	8.  Get Calculator
 
-	99.  To Exit.. ''')
+	99.  Back.. ''')
 
 	system("tput bold; tput cup 50 0")
 	print("Enter your choice [1-8] : ",end='')
