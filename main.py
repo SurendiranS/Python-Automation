@@ -20,6 +20,7 @@ while 1:
 	3.  AWS-CLI Automation
 	4.  Docker Automation
 	5.  Machine Learning
+	6.  Ansible 
 
 	99.  Exit..''')
 
