@@ -16,7 +16,7 @@ def main():
 	1. Local system
 	2. Remote system
 
-	99. Exit..''')
+	99. Back...''')
 	system("tput bold;tput cup 50 0")
 	print("Enter your choice [1-2]\t : ",end='')
 	sys = int(input())

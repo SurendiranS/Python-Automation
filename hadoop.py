@@ -16,7 +16,7 @@ def main():
     2.  Configure Datanode
     3.  Configure Client
 
-    99.  Back.. """)  
+    99.  Back... """)  
     system("tput bold;tput cup 50 0")
     h = int(input("Enter your choice [1-3]: "))
     system("tput sgr0");

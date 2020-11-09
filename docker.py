@@ -20,7 +20,7 @@ def main():
         6.  To Create DockerFile
         7.  To Delete all running docker containers
 
-        99.  Exit..""")
+        99.  Back...""")
     system("tput bold;tput cup 50 0")
     d = int(input("Enter your choice [1-7]: "))
     system("tput sgr0");

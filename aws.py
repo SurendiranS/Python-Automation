@@ -21,7 +21,7 @@ def main():
 	6.  Create S3 bucket
 	7.  Delete all running instances
 
-	99. Exit.. """)
+	99. Back... """)
 
 	system("tput bold;tput cup 50 0")
 	a = int(input("Enter your choice [1-7]: "))
