@@ -1,12 +1,12 @@
 from os import system
+
+
 def banner():
 	system("clear;tput setaf 1; tput cup 3 15;tput bold;tput rev");
 	print("Python Automation")
 	system("tput sgr0;tput bold;tput cup 5 15 ; ");
 	print("Linux Automation")
 	system("tput cup 7 0;tput sgr0");
-
-	
 
 
 def main():
@@ -24,12 +24,7 @@ def main():
 	if sys == 99:
 		return 
 
-
 	system("tput sgr0");
-
-	
-	
-		
 
 	banner()
 	print('''
