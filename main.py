@@ -7,15 +7,16 @@ import machineLearning
 import ansible
 
 while 1:
+	if(__name__=="__main__):
 	# Banner 
-	system("clear;tput setaf 1; tput cup 3 15;tput bold;tput rev");
-	print("Python Automation")
-	system("tput sgr0;tput bold;tput cup 5 17 ; ");
-	print("Main Menu")
-	system("tput sgr0");
+		system("clear;tput setaf 1; tput cup 3 15;tput bold;tput rev");
+		print("Python Automation")
+		system("tput sgr0;tput bold;tput cup 5 17 ; ");
+		print("Main Menu")
+		system("tput sgr0");
 
 	#main menu
-	print('''
+		print('''
 	1.  Basic Linux command Automation
 	2.  Hadoop Automation
 	3.  AWS-CLI Automation
